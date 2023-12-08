@@ -48,12 +48,6 @@ function toggleExtra() {
   }
 }
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p1, .about-content', { origin: 'right' });
-
-
 // typed js
 const typed = new Typed('.multiple-text', {
     strings: ['DevOps Cloud Engineer'],
